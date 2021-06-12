@@ -1,8 +1,8 @@
-## This section contains first baseline approach which will need to be iterated upon.
+## Neural networks implementation
 
-Training accuracy: ~61% (after 10 epochs). Time taken: > 3 hours.
+Training accuracy: \~61% (after 10 epochs). Time taken: > 3 hours.
 
-AUC score: 0.434
+AUC score= 0.434
 
 **ROC curve**
 ![first_baseline_ROC](images/first_baseline_ROC.png)
