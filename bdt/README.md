@@ -13,16 +13,6 @@
  ```
  - Training time was ~1hr 5min for low level features and ~15-20 min for high-level features. The number of trees used is 200.
 
- **Results**
-
-Low level features:
-- AUC = 0.73
-- RMSE = 0.465280
-
-High level features:
-- AUC = 0.79
-- RMSE = 0.449697
-
 The trained models (in `.txt` format) can be directly loaded using [XGBoost](https://xgboost.readthedocs.io/en/latest/):
 
 ```py
@@ -34,3 +24,19 @@ and then it can be used for prediction:
 ```py
 model.predict(<test_data>)
 ```
+
+---
+
+ **Results**
+
+Low level features:
+- AUC = 0.73
+- RMSE = 0.465280
+
+![Low level ROC curve](images/low_level_ROC.png)
+
+High level features:
+- AUC = 0.79
+- RMSE = 0.449697
+
+![High level ROC curve](images/high_level_ROC.png)
