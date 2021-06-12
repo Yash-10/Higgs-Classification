@@ -1,6 +1,6 @@
 ## Boosted decision tree implementation
 
-- `xgboost_train_low_level.txt` and `xgboost_train_high_level.txt` are the saved XGBoost model trained with low level and high level features with the following parameters:
+- `xgboost_train_low_level.txt`, `xgboost_train_high_level.txt`, and `xgboost_train_full.txt` are the saved XGBoost models trained with low level, high level and all features respectively with the following parameters:
 
 ```
 {'colsample_bytree': 0.8,
@@ -11,13 +11,13 @@
  'objective': 'binary:logistic',
  'subsample': 0.8}
  ```
- - Training time was ~1hr 5min for low level features and ~15-20 min for high-level features. The number of trees used is 200.
+ - Training time was ~1hr 5min for low level features, ~15-20 min for high-level features, and slightly more than 1hr for all features. The number of trees used is 200 in all the cases.
 
-The trained models (in `.txt` format) can be directly loaded using [XGBoost](https://xgboost.readthedocs.io/en/latest/):
+The trained models (in `.txt` format) can be directly loaded using [XGBoost](https://xgboost.readthedocs.io/en/latest/), for example:
 
 ```py
 model = xgb.Booster()
-model.load_model("xgboost_train_high_level.txt")
+model.load_model("xgboost_train_full.txt")
 ```
 and then it can be used for prediction:
 
