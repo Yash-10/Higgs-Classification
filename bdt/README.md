@@ -22,3 +22,15 @@ Low level features:
 High level features:
 - AUC = 0.79
 - RMSE = 0.449697
+
+The trained models (in `.txt` format) can be directly loaded using [XGBoost](https://xgboost.readthedocs.io/en/latest/):
+
+```py
+model = xgb.Booster()
+model.load_model("xgboost_train_high_level.txt")
+```
+and then it can be used for prediction:
+
+```py
+model.predict(<test_data>)
+```
