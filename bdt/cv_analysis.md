@@ -83,6 +83,8 @@ Best combination for this subset of data: max_depth: 5, min_child_weight: 13
 
 Since the actual dataset is larger, a larger depth would be needed, for example, 10.
 
+![Mean RMSE](images/cv_low_level.png)
+
 ## 2. Learning rate analysis
 
 ```python
