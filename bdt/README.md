@@ -45,4 +45,4 @@ All features:
 - AUC = 0.82
 - RMSE: 0.437461
 
-![All features](images/all_roc.png)
+![All features](images/all_ROC.png)
