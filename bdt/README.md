@@ -40,3 +40,9 @@ High level features:
 - RMSE = 0.449697
 
 ![High level ROC curve](images/high_level_ROC.png)
+
+All features:
+- AUC = 0.82
+- RMSE: 0.437461
+
+![All features](images/all_roc.png)
