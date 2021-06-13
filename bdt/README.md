@@ -1,6 +1,6 @@
 ## Boosted decision tree implementation
 
-- `xgboost_train_low_level.txt`, `xgboost_train_high_level.txt`, and `xgboost_train_full.txt` are the saved XGBoost models trained with low level, high level and all features respectively with the following parameters:
+- `xgboost_train_low_level.txt`, `xgboost_train_high_level.txt`, and `xgboost_train_full.txt` (inside the folder `bdt_models/`, are the saved XGBoost models trained with low level, high level and all features respectively with the following parameters:
 
 ```
 {'colsample_bytree': 0.8,
