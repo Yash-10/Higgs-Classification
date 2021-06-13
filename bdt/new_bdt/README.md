@@ -6,6 +6,7 @@
 `new_models/` contains the trained models using the below parameters.
 
 Parameters:
+```py
 {'colsample_bytree': 0.8,
  'eta': 0.01,
  'eval_metric': 'rmse',
@@ -13,6 +14,7 @@ Parameters:
  'min_child_weight': 13,
  'objective': 'binary:logistic',
  'subsample': 0.8}
+```
 
  Difference between this and the analysis in `bdt/`: `max_depth` increased to 18. Number of trees increased to 400.
 
