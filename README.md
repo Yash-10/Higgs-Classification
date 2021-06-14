@@ -8,6 +8,10 @@ The best model so far has been Boosted Decision Trees with an AUC value of 0.89.
 
 ![plot](images/classification_plot_best.png)
 
+**AUC Curve**
+
+![AUC_best](images/better_all_ROC.png)
+
 
 ### References
 The dataset can be found [here](http://archive.ics.uci.edu/ml/datasets/HIGGS) and the associated paper: Baldi, P., Sadowski, P. & Whiteson, D. Searching for exotic particles in high-energy physics with deep learning. Nat Commun 5, 4308 (2014). https://doi.org/10.1038/ncomms5308.
