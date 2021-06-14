@@ -2,9 +2,9 @@
 
 The repository contains the implementation of Machine Learning and Deep Learning Techniques applied to the binary classification problem of distinguishing signal (particle collisions that result in a Higgs boson) processes and background (collisions that result in other particles) processes.
 
-The best model so far has been Boosted Decision Trees with an AUC value of 0.89.
-
 #### Classification results
+
+The best model so far has been Boosted Decision Trees with an AUC value of 0.89.
 
 ![plot](images/classification_plot_best.png)
 
