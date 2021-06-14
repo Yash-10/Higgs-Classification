@@ -2,6 +2,8 @@
 
 ### This section contains training and testing analysis using different set of parameters.
 
+The best model (with an AUC value of 0.89) can be found in `.txt` format [here](https://drive.google.com/file/d/1_vxK6TlnsW09STBVaDE46lS2cQTfFCxk/view?usp=sharing)
+
 
 `new_models/` contains the trained models using the below parameters.
 
