@@ -29,3 +29,9 @@ Parameters:
  - RMSE = 0.406682
 
  ![New_high_level](../images/better_high_level_ROC.png)
+
+On all features (Training time: slightly > 4 hrs)
+- AUC = 0.89
+- RMSE = 0.373804
+
+![New_all](../images/better_all_ROC.png)
